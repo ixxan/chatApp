@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_fG3KoEgBEeyQM-etEuWZNA">
+  <modelElement href="../../../../../connectionStatus.uml#_gcjLMEgBEeyQM-etEuWZNA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_g43TwEgBEeyQM-etEuWZNA" targetItem="_g5OgIEgBEeyQM-etEuWZNA" sourceItem="_g40QcEgBEeyQM-etEuWZNA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_g5K1wEgBEeyQM-etEuWZNA" source="_g5OgIEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gpZ7cEgBEeyQM-etEuWZNA"/>
+    <stereotypes xmi:id="_g5K1wUgBEeyQM-etEuWZNA" name="Reference">
+      <modelElement href="../../../../../connectionStatus.uml#_gpc-wEgBEeyQM-etEuWZNA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_g5K1wkgBEeyQM-etEuWZNA" text=""/>
+    <sourceRole xmi:id="_g5Lc0EgBEeyQM-etEuWZNA" aggregationKind="NONE" name="">
+      <modelElement href="../../../../../connectionStatus.uml#_gpZ7cUgBEeyQM-etEuWZNA"/>
+      <visibility xmi:id="_g5Lc0UgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g5Lc0kgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_g5Lc00gBEeyQM-etEuWZNA" aggregationKind="NONE" name="dataPacket" navigable="true">
+      <modelElement href="../../../../../connectionStatus.uml#_goWLgEgBEeyQM-etEuWZNA"/>
+      <visibility xmi:id="_g5Lc1EgBEeyQM-etEuWZNA" label="#"/>
+      <cardinality xmi:id="_g5Lc1UgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_g5NSAEgBEeyQM-etEuWZNA" source="_g5OgIEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gpez8EgBEeyQM-etEuWZNA"/>
+    <stereotypes xmi:id="_g5NSAUgBEeyQM-etEuWZNA" name="Reference">
+      <modelElement href="../../../../../connectionStatus.uml#_gpgCEEgBEeyQM-etEuWZNA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_g5NSAkgBEeyQM-etEuWZNA" text=""/>
+    <sourceRole xmi:id="_g5NSA0gBEeyQM-etEuWZNA" aggregationKind="NONE" name="">
+      <modelElement href="../../../../../connectionStatus.uml#_gpez8UgBEeyQM-etEuWZNA"/>
+      <visibility xmi:id="_g5NSBEgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g5NSBUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_g5NSBkgBEeyQM-etEuWZNA" aggregationKind="NONE" name="sender" navigable="true">
+      <modelElement href="../../../../../connectionStatus.uml#_gof8gEgBEeyQM-etEuWZNA"/>
+      <visibility xmi:id="_g5NSB0gBEeyQM-etEuWZNA" label="#"/>
+      <cardinality xmi:id="_g5NSCEgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_g6SQEEgBEeyQM-etEuWZNA" sourceAnchor="325.0,0.0" targetAnchor="156.0,120.0" superClass="_g5OgIEgBEeyQM-etEuWZNA" subClass="_g6coIEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gnM8AEgBEeyQM-etEuWZNA"/>
+    <bendpoints xmi:id="_ixrPgEgBEeyQM-etEuWZNA" sourceY="-20" targetX="650" targetY="31"/>
+    <bendpoints xmi:id="_ixtEsEgBEeyQM-etEuWZNA" sourceX="-650" sourceY="-20" targetY="31"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_g6XvoEgBEeyQM-etEuWZNA" targetItem="_g6coIEgBEeyQM-etEuWZNA" sourceItem="_g6WhgEgBEeyQM-etEuWZNA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_g6ay8UgBEeyQM-etEuWZNA" targetItem="_g6coLkgBEeyQM-etEuWZNA" sourceItem="_g6ay8EgBEeyQM-etEuWZNA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_g6wKIEgBEeyQM-etEuWZNA" sourceAnchor="307.0,0.0" targetAnchor="156.0,120.0" superClass="_g5OgIEgBEeyQM-etEuWZNA" subClass="_g62QwEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gm72QEgBEeyQM-etEuWZNA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_g6xYQUgBEeyQM-etEuWZNA" targetItem="_g62QwEgBEeyQM-etEuWZNA" sourceItem="_g6xYQEgBEeyQM-etEuWZNA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_g61CoEgBEeyQM-etEuWZNA" targetItem="_g62QzEgBEeyQM-etEuWZNA" sourceItem="_g60bkEgBEeyQM-etEuWZNA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_g68-cEgBEeyQM-etEuWZNA" sourceAnchor="308.0,0.0" targetAnchor="156.0,120.0" superClass="_g5OgIEgBEeyQM-etEuWZNA" subClass="_g7DFEEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gnG1YEgBEeyQM-etEuWZNA"/>
+    <bendpoints xmi:id="_ixuS0EgBEeyQM-etEuWZNA" sourceY="-20" targetX="-637" targetY="31"/>
+    <bendpoints xmi:id="_ixuS0UgBEeyQM-etEuWZNA" sourceX="637" sourceY="-20" targetY="31"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_g69lgUgBEeyQM-etEuWZNA" targetItem="_g7DFEEgBEeyQM-etEuWZNA" sourceItem="_g69lgEgBEeyQM-etEuWZNA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_g7B28UgBEeyQM-etEuWZNA" targetItem="_g7DFHkgBEeyQM-etEuWZNA" sourceItem="_g7B28EgBEeyQM-etEuWZNA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_g40QcEgBEeyQM-etEuWZNA" sourceConnectionVisual="_g43TwEgBEeyQM-etEuWZNA" text="@author jimmy&#xA;The abstract concrete class for the statusmsg." item="_g5OgIEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gpFyYEgBEeyQM-etEuWZNA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_g6WhgEgBEeyQM-etEuWZNA" sourceConnectionVisual="_g6XvoEgBEeyQM-etEuWZNA" text="@author jimmy&#xA;The connection reject message." item="_g6coIEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gpHAgkgBEeyQM-etEuWZNA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_g6ay8EgBEeyQM-etEuWZNA" sourceConnectionVisual="_g6ay8UgBEeyQM-etEuWZNA" text="The constructor for the class.&#xA;&#x9; * @param dataPacket the data.&#xA;&#x9; * @param sender The sender." item="_g6coLkgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gpHAg0gBEeyQM-etEuWZNA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_g6xYQEgBEeyQM-etEuWZNA" sourceConnectionVisual="_g6xYQUgBEeyQM-etEuWZNA" text="@author jimmy&#xA;The connection error message." item="_g62QwEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gpGZcEgBEeyQM-etEuWZNA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_g60bkEgBEeyQM-etEuWZNA" sourceConnectionVisual="_g61CoEgBEeyQM-etEuWZNA" text="The constructor.&#xA;&#x9; * @param dataPacket the data.&#xA;&#x9; * @param sender  the sender." item="_g62QzEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gpGZcUgBEeyQM-etEuWZNA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_g69lgEgBEeyQM-etEuWZNA" sourceConnectionVisual="_g69lgUgBEeyQM-etEuWZNA" text="@author jimmy&#xA;The connection fail class." item="_g7DFEEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gpHAgEgBEeyQM-etEuWZNA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_g7B28EgBEeyQM-etEuWZNA" sourceConnectionVisual="_g7B28UgBEeyQM-etEuWZNA" text="Constructor for the fail message.&#xA;&#x9; * @param dataPacket the data.&#xA;&#x9; * @param sender the sender." item="_g7DFHkgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gpHAgUgBEeyQM-etEuWZNA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_g5OgIEgBEeyQM-etEuWZNA" comments="_g40QcEgBEeyQM-etEuWZNA" targetConnectionVisual="_g43TwEgBEeyQM-etEuWZNA" name="AConnectorStatusMsg" abstractClass="true" associationsOut="_g5K1wEgBEeyQM-etEuWZNA _g5NSAEgBEeyQM-etEuWZNA" subclassedBy="_g6SQEEgBEeyQM-etEuWZNA _g6wKIEgBEeyQM-etEuWZNA _g68-cEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gduP4EgBEeyQM-etEuWZNA"/>
+    <visualProperties xmi:id="_g5OgIUgBEeyQM-etEuWZNA" position="800.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_g5OgIkgBEeyQM-etEuWZNA" label="+"/>
+    <attributes xmi:id="_g5OgI0gBEeyQM-etEuWZNA" defaultValue="5636341249752343564L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="../../../../../connectionStatus.uml#_goOPsEgBEeyQM-etEuWZNA"/>
+      <visibility xmi:id="_g5OgJEgBEeyQM-etEuWZNA" label="-"/>
+      <cardinality xmi:id="_g5OgJUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <type xmi:id="_g5OgJkgBEeyQM-etEuWZNA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_g5OgJ0gBEeyQM-etEuWZNA" name="dataPacket">
+      <modelElement href="../../../../../connectionStatus.uml#_goWLgEgBEeyQM-etEuWZNA"/>
+      <stereotypes xmi:id="_g5OgKEgBEeyQM-etEuWZNA" name="Generics">
+        <modelElement href="../../../../../connectionStatus.uml#_goZO0EgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_g5OgKUgBEeyQM-etEuWZNA" name="LegacyStyledElement">
+        <modelElement href="../../../../../connectionStatus.uml#_goeHUEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <visibility xmi:id="_g5OgKkgBEeyQM-etEuWZNA" label="#"/>
+      <cardinality xmi:id="_g5OgK0gBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <type xmi:id="_g5OgLEgBEeyQM-etEuWZNA" name="ConnectorDataPacket">
+        <modelElement href="../../../../../connectionStatus.uml#_gmBQQEgBEeyQM-etEuWZNA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_g5OgLUgBEeyQM-etEuWZNA" name="sender">
+      <modelElement href="../../../../../connectionStatus.uml#_gof8gEgBEeyQM-etEuWZNA"/>
+      <stereotypes xmi:id="_g5OgLkgBEeyQM-etEuWZNA" name="LegacyStyledElement">
+        <modelElement href="../../../../../connectionStatus.uml#_gohxsEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <visibility xmi:id="_g5OgL0gBEeyQM-etEuWZNA" label="#"/>
+      <cardinality xmi:id="_g5OgMEgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <type xmi:id="_g5OgMUgBEeyQM-etEuWZNA" name="INamedConnector">
+        <modelElement href="../../../../../connectionStatus.uml#_gmaR0EgBEeyQM-etEuWZNA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_g5OgMkgBEeyQM-etEuWZNA" name="getPacket">
+      <modelElement href="../../../../../connectionStatus.uml#_ge7w0EgBEeyQM-etEuWZNA"/>
+      <stereotypes xmi:id="_g5OgM0gBEeyQM-etEuWZNA" name="Generics">
+        <modelElement href="../../../../../connectionStatus.uml#_gfbgEEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_g5OgNEgBEeyQM-etEuWZNA" name="LegacyStyledElement">
+        <modelElement href="../../../../../connectionStatus.uml#_gfg_oEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_g5OgNUgBEeyQM-etEuWZNA" name="Annotations">
+        <modelElement href="../../../../../connectionStatus.uml#_gfr-wEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <visibility xmi:id="_g5OgNkgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g5OgN0gBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_g5OgOEgBEeyQM-etEuWZNA">
+        <modelElement href="../../../../../connectionStatus.uml#_gnl9kEgBEeyQM-etEuWZNA"/>
+        <type xmi:id="_g5OgOUgBEeyQM-etEuWZNA" name="ConnectorDataPacket">
+          <modelElement href="../../../../../connectionStatus.uml#_gmBQQEgBEeyQM-etEuWZNA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_g5OgOkgBEeyQM-etEuWZNA" abstractOperation="true" name="getStatus">
+      <modelElement href="../../../../../connectionStatus.uml#_gfvCEEgBEeyQM-etEuWZNA"/>
+      <stereotypes xmi:id="_g5OgO0gBEeyQM-etEuWZNA" name="LegacyStyledElement">
+        <modelElement href="../../../../../connectionStatus.uml#_gf0hoEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_g5OgPEgBEeyQM-etEuWZNA" name="Annotations">
+        <modelElement href="../../../../../connectionStatus.uml#_gf0hoUgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <visibility xmi:id="_g5OgPUgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g5OgPkgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_g5OgP0gBEeyQM-etEuWZNA">
+        <modelElement href="../../../../../connectionStatus.uml#_gfxeUEgBEeyQM-etEuWZNA"/>
+        <type xmi:id="_g5OgQEgBEeyQM-etEuWZNA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_g6coIEgBEeyQM-etEuWZNA" comments="_g6WhgEgBEeyQM-etEuWZNA" targetConnectionVisual="_g6XvoEgBEeyQM-etEuWZNA" name="ConnectorRejectMsg" generalizations="_g6SQEEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_ggUQ4EgBEeyQM-etEuWZNA"/>
+    <visualProperties xmi:id="_g6coIUgBEeyQM-etEuWZNA" position="1281.0,202.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_g6coIkgBEeyQM-etEuWZNA" label="+"/>
+    <attributes xmi:id="_g6coI0gBEeyQM-etEuWZNA" defaultValue="-2379605039639705622L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="../../../../../connectionStatus.uml#_golcEEgBEeyQM-etEuWZNA"/>
+      <visibility xmi:id="_g6coJEgBEeyQM-etEuWZNA" label="-"/>
+      <cardinality xmi:id="_g6coJUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <type xmi:id="_g6coJkgBEeyQM-etEuWZNA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_g6coJ0gBEeyQM-etEuWZNA" name="getStatus">
+      <modelElement href="../../../../../connectionStatus.uml#_ggeB4EgBEeyQM-etEuWZNA"/>
+      <stereotypes xmi:id="_g6coKEgBEeyQM-etEuWZNA" name="LegacyStyledElement">
+        <modelElement href="../../../../../connectionStatus.uml#_ggf3EEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_g6coKUgBEeyQM-etEuWZNA" name="Annotations">
+        <modelElement href="../../../../../connectionStatus.uml#_gghFMEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <visibility xmi:id="_g6coKkgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g6coK0gBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_g6coLEgBEeyQM-etEuWZNA">
+        <modelElement href="../../../../../connectionStatus.uml#_ggfQAEgBEeyQM-etEuWZNA"/>
+        <type xmi:id="_g6coLUgBEeyQM-etEuWZNA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_g6coLkgBEeyQM-etEuWZNA" comments="_g6ay8EgBEeyQM-etEuWZNA" targetConnectionVisual="_g6ay8UgBEeyQM-etEuWZNA" name="ConnectorRejectMsg">
+      <modelElement href="../../../../../connectionStatus.uml#_goFs0EgBEeyQM-etEuWZNA"/>
+      <keywords xmi:id="_g6coL0gBEeyQM-etEuWZNA" keyword="create"/>
+      <visibility xmi:id="_g6coMEgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g6coMUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_g6coMkgBEeyQM-etEuWZNA">
+        <modelElement href="../../../../../connectionStatus.uml#_goG68EgBEeyQM-etEuWZNA"/>
+        <type xmi:id="_g6coM0gBEeyQM-etEuWZNA" name="ConnectorRejectMsg">
+          <modelElement href="../../../../../connectionStatus.uml#_ggUQ4EgBEeyQM-etEuWZNA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_g6coNEgBEeyQM-etEuWZNA" name="dataPacket">
+        <modelElement href="../../../../../connectionStatus.uml#_goFs0UgBEeyQM-etEuWZNA"/>
+        <cardinality xmi:id="_g6coNUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+        <type xmi:id="_g6coNkgBEeyQM-etEuWZNA" name="ConnectorDataPacket">
+          <modelElement href="../../../../../connectionStatus.uml#_gmBQQEgBEeyQM-etEuWZNA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_g6coN0gBEeyQM-etEuWZNA" name="sender">
+        <modelElement href="../../../../../connectionStatus.uml#_goGT4EgBEeyQM-etEuWZNA"/>
+        <cardinality xmi:id="_g6coOEgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+        <type xmi:id="_g6coOUgBEeyQM-etEuWZNA" name="INamedConnector">
+          <modelElement href="../../../../../connectionStatus.uml#_gmaR0EgBEeyQM-etEuWZNA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_g62QwEgBEeyQM-etEuWZNA" comments="_g6xYQEgBEeyQM-etEuWZNA" targetConnectionVisual="_g6xYQUgBEeyQM-etEuWZNA" name="ConnectorErrMsg" generalizations="_g6wKIEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_gf3k8EgBEeyQM-etEuWZNA"/>
+    <visualProperties xmi:id="_g62QwUgBEeyQM-etEuWZNA" position="649.0,215.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_g62QwkgBEeyQM-etEuWZNA" label="+"/>
+    <attributes xmi:id="_g62Qw0gBEeyQM-etEuWZNA" defaultValue="6878755681143402550L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="../../../../../connectionStatus.uml#_goiYwEgBEeyQM-etEuWZNA"/>
+      <visibility xmi:id="_g62QxEgBEeyQM-etEuWZNA" label="-"/>
+      <cardinality xmi:id="_g62QxUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <type xmi:id="_g62QxkgBEeyQM-etEuWZNA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_g62Qx0gBEeyQM-etEuWZNA" name="getStatus">
+      <modelElement href="../../../../../connectionStatus.uml#_ggCkEEgBEeyQM-etEuWZNA"/>
+      <visibility xmi:id="_g62QyEgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g62QyUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_g62QykgBEeyQM-etEuWZNA">
+        <modelElement href="../../../../../connectionStatus.uml#_ggDyMEgBEeyQM-etEuWZNA"/>
+        <type xmi:id="_g62Qy0gBEeyQM-etEuWZNA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_g62QzEgBEeyQM-etEuWZNA" comments="_g60bkEgBEeyQM-etEuWZNA" targetConnectionVisual="_g61CoEgBEeyQM-etEuWZNA" name="ConnectorErrMsg">
+      <modelElement href="../../../../../connectionStatus.uml#_gntSUEgBEeyQM-etEuWZNA"/>
+      <keywords xmi:id="_g62QzUgBEeyQM-etEuWZNA" keyword="create"/>
+      <visibility xmi:id="_g62QzkgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g62Qz0gBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_g62Q0EgBEeyQM-etEuWZNA">
+        <modelElement href="../../../../../connectionStatus.uml#_gn0nEEgBEeyQM-etEuWZNA"/>
+        <type xmi:id="_g62Q0UgBEeyQM-etEuWZNA" name="ConnectorErrMsg">
+          <modelElement href="../../../../../connectionStatus.uml#_gf3k8EgBEeyQM-etEuWZNA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_g62Q0kgBEeyQM-etEuWZNA" name="dataPacket">
+        <modelElement href="../../../../../connectionStatus.uml#_gnvukEgBEeyQM-etEuWZNA"/>
+        <cardinality xmi:id="_g62Q00gBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+        <type xmi:id="_g62Q1EgBEeyQM-etEuWZNA" name="ConnectorDataPacket">
+          <modelElement href="../../../../../connectionStatus.uml#_gmBQQEgBEeyQM-etEuWZNA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_g62Q1UgBEeyQM-etEuWZNA" name="sender">
+        <modelElement href="../../../../../connectionStatus.uml#_gnwVoEgBEeyQM-etEuWZNA"/>
+        <cardinality xmi:id="_g62Q1kgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+        <type xmi:id="_g62Q10gBEeyQM-etEuWZNA" name="INamedConnector">
+          <modelElement href="../../../../../connectionStatus.uml#_gmaR0EgBEeyQM-etEuWZNA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_g7DFEEgBEeyQM-etEuWZNA" comments="_g69lgEgBEeyQM-etEuWZNA" targetConnectionVisual="_g69lgUgBEeyQM-etEuWZNA" name="ConnectorFailMsg" generalizations="_g68-cEgBEeyQM-etEuWZNA">
+    <modelElement href="../../../../../connectionStatus.uml#_ggLG8EgBEeyQM-etEuWZNA"/>
+    <visualProperties xmi:id="_g7DFEUgBEeyQM-etEuWZNA" position="11.0,202.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_g7DFEkgBEeyQM-etEuWZNA" label="+"/>
+    <attributes xmi:id="_g7DFE0gBEeyQM-etEuWZNA" defaultValue="1788757620303599210L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="../../../../../connectionStatus.uml#_gokN8EgBEeyQM-etEuWZNA"/>
+      <visibility xmi:id="_g7DFFEgBEeyQM-etEuWZNA" label="-"/>
+      <cardinality xmi:id="_g7DFFUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <type xmi:id="_g7DFFkgBEeyQM-etEuWZNA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_g7DFF0gBEeyQM-etEuWZNA" name="getStatus">
+      <modelElement href="../../../../../connectionStatus.uml#_ggP_cEgBEeyQM-etEuWZNA"/>
+      <stereotypes xmi:id="_g7DFGEgBEeyQM-etEuWZNA" name="LegacyStyledElement">
+        <modelElement href="../../../../../connectionStatus.uml#_ggRNkEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_g7DFGUgBEeyQM-etEuWZNA" name="Annotations">
+        <modelElement href="../../../../../connectionStatus.uml#_ggR0oEgBEeyQM-etEuWZNA"/>
+      </stereotypes>
+      <visibility xmi:id="_g7DFGkgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g7DFG0gBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_g7DFHEgBEeyQM-etEuWZNA">
+        <modelElement href="../../../../../connectionStatus.uml#_ggQmgEgBEeyQM-etEuWZNA"/>
+        <type xmi:id="_g7DFHUgBEeyQM-etEuWZNA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_g7DFHkgBEeyQM-etEuWZNA" comments="_g7B28EgBEeyQM-etEuWZNA" targetConnectionVisual="_g7B28UgBEeyQM-etEuWZNA" name="ConnectorFailMsg">
+      <modelElement href="../../../../../connectionStatus.uml#_gn_mMEgBEeyQM-etEuWZNA"/>
+      <keywords xmi:id="_g7DFH0gBEeyQM-etEuWZNA" keyword="create"/>
+      <visibility xmi:id="_g7DFIEgBEeyQM-etEuWZNA" label="+"/>
+      <cardinality xmi:id="_g7DFIUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_g7DFIkgBEeyQM-etEuWZNA">
+        <modelElement href="../../../../../connectionStatus.uml#_goBbYUgBEeyQM-etEuWZNA"/>
+        <type xmi:id="_g7DFI0gBEeyQM-etEuWZNA" name="ConnectorFailMsg">
+          <modelElement href="../../../../../connectionStatus.uml#_ggLG8EgBEeyQM-etEuWZNA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_g7DFJEgBEeyQM-etEuWZNA" name="dataPacket">
+        <modelElement href="../../../../../connectionStatus.uml#_goANQEgBEeyQM-etEuWZNA"/>
+        <cardinality xmi:id="_g7DFJUgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+        <type xmi:id="_g7DFJkgBEeyQM-etEuWZNA" name="ConnectorDataPacket">
+          <modelElement href="../../../../../connectionStatus.uml#_gmBQQEgBEeyQM-etEuWZNA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_g7DFJ0gBEeyQM-etEuWZNA" name="sender">
+        <modelElement href="../../../../../connectionStatus.uml#_goA0UEgBEeyQM-etEuWZNA"/>
+        <cardinality xmi:id="_g7DFKEgBEeyQM-etEuWZNA" label="1" max="1" min="1"/>
+        <type xmi:id="_g7DFKUgBEeyQM-etEuWZNA" name="INamedConnector">
+          <modelElement href="../../../../../connectionStatus.uml#_gmaR0EgBEeyQM-etEuWZNA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

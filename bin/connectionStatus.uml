@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_fCHNgEgBEeyQM-etEuWZNA" name="connectionStatus">
+    <eAnnotations xmi:id="_ftDn8EgBEeyQM-etEuWZNA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ftJukEgBEeyQM-etEuWZNA" source="codegen">
+        <details xmi:id="_ftLjwEgBEeyQM-etEuWZNA" key="codegenDirectory" value="/comp310-f21-hw08-comp310-f21-hw08-36/src"/>
+        <details xmi:id="_g4VIQEgBEeyQM-etEuWZNA" key="AssociatedSourceCode" value="/comp310-f21-hw08-comp310-f21-hw08-36/src/ay32_yh87/chatApp/model/message/status/AConnectorStatusMsg.java;1461822843/1;/comp310-f21-hw08-comp310-f21-hw08-36/src/ay32_yh87/chatApp/model/message/status/ConnectorErrMsg.java;1743370735/1;/comp310-f21-hw08-comp310-f21-hw08-36/src/ay32_yh87/chatApp/model/message/status/ConnectorFailMsg.java;730525564/1;/comp310-f21-hw08-comp310-f21-hw08-36/src/ay32_yh87/chatApp/model/message/status/ConnectorRejectMsg.java;906127753/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_gezN8EgBEeyQM-etEuWZNA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ge0cEEgBEeyQM-etEuWZNA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ge1DIEgBEeyQM-etEuWZNA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ge1DIUgBEeyQM-etEuWZNA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ge1DIkgBEeyQM-etEuWZNA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ge1qMEgBEeyQM-etEuWZNA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ge1qMUgBEeyQM-etEuWZNA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ge2RQEgBEeyQM-etEuWZNA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ge3fYEgBEeyQM-etEuWZNA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_gcCN0EgBEeyQM-etEuWZNA" name="ay32_yh87">
+      <packagedElement xmi:type="uml:Package" xmi:id="_gcL-0EgBEeyQM-etEuWZNA" name="chatApp">
+        <packagedElement xmi:type="uml:Package" xmi:id="_gcL-0UgBEeyQM-etEuWZNA" name="model">
+          <packagedElement xmi:type="uml:Package" xmi:id="_gcMl4EgBEeyQM-etEuWZNA" name="message">
+            <packagedElement xmi:type="uml:Package" xmi:id="_gcjLMEgBEeyQM-etEuWZNA" name="status">
+              <packagedElement xmi:type="uml:Class" xmi:id="_gduP4EgBEeyQM-etEuWZNA" name="AConnectorStatusMsg" isAbstract="true">
+                <ownedComment xmi:id="_kco8gEgBEeyQM-etEuWZNA">
+                  <body>@author jimmy
+The abstract concrete class for the statusmsg.</body>
+                </ownedComment>
+                <ownedAttribute xmi:id="_goOPsEgBEeyQM-etEuWZNA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_goR6EEgBEeyQM-etEuWZNA" value="5636341249752343564L"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_goWLgEgBEeyQM-etEuWZNA" name="dataPacket" visibility="protected" type="_gmBQQEgBEeyQM-etEuWZNA" association="_gpZ7cEgBEeyQM-etEuWZNA"/>
+                <ownedAttribute xmi:id="_gof8gEgBEeyQM-etEuWZNA" name="sender" visibility="protected" type="_gmaR0EgBEeyQM-etEuWZNA" association="_gpez8EgBEeyQM-etEuWZNA"/>
+                <interfaceRealization xmi:id="_gnZJQEgBEeyQM-etEuWZNA" client="_gduP4EgBEeyQM-etEuWZNA" supplier="_gmd8MEgBEeyQM-etEuWZNA" contract="_gmd8MEgBEeyQM-etEuWZNA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_go2h0EgBEeyQM-etEuWZNA" name="getPacket" specification="_ge7w0EgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_go3I4EgBEeyQM-etEuWZNA" type="_gmBQQEgBEeyQM-etEuWZNA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return dataPacket;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_ge7w0EgBEeyQM-etEuWZNA" name="getPacket" method="_go2h0EgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_gnl9kEgBEeyQM-etEuWZNA" type="_gmBQQEgBEeyQM-etEuWZNA" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_gfvCEEgBEeyQM-etEuWZNA" name="getStatus" isAbstract="true">
+                  <ownedParameter xmi:id="_gfxeUEgBEeyQM-etEuWZNA" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_gf3k8EgBEeyQM-etEuWZNA" name="ConnectorErrMsg">
+                <ownedComment xmi:id="_kct1AEgBEeyQM-etEuWZNA">
+                  <body>@author jimmy
+The connection error message.</body>
+                </ownedComment>
+                <generalization xmi:id="_gm72QEgBEeyQM-etEuWZNA" general="_gduP4EgBEeyQM-etEuWZNA"/>
+                <ownedAttribute xmi:id="_goiYwEgBEeyQM-etEuWZNA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_gojm4EgBEeyQM-etEuWZNA" value="6878755681143402550L"/>
+                </ownedAttribute>
+                <interfaceRealization xmi:id="_gnpn8EgBEeyQM-etEuWZNA" client="_gf3k8EgBEeyQM-etEuWZNA" supplier="_gm29wEgBEeyQM-etEuWZNA" contract="_gm29wEgBEeyQM-etEuWZNA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gpBg8EgBEeyQM-etEuWZNA" name="ConnectorErrMsg" specification="_gntSUEgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_gpCIAEgBEeyQM-etEuWZNA" name="dataPacket" type="_gmBQQEgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_gpCIAUgBEeyQM-etEuWZNA" name="sender" type="_gmaR0EgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_gpCIAkgBEeyQM-etEuWZNA" type="_gf3k8EgBEeyQM-etEuWZNA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.dataPacket = dataPacket;
+		this.sender = sender;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gpD9MEgBEeyQM-etEuWZNA" name="getStatus" specification="_ggCkEEgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_gpD9MUgBEeyQM-etEuWZNA" direction="return">
+                    <name xsi:nil="true"/>
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return &quot;Connection Error from &quot; + sender.getName();
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_ggCkEEgBEeyQM-etEuWZNA" name="getStatus" method="_gpD9MEgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_ggDyMEgBEeyQM-etEuWZNA" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_gntSUEgBEeyQM-etEuWZNA" name="ConnectorErrMsg" method="_gpBg8EgBEeyQM-etEuWZNA">
+                  <eAnnotations xmi:id="_gnxjwEgBEeyQM-etEuWZNA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_gn0AAEgBEeyQM-etEuWZNA" key="create"/>
+                  </eAnnotations>
+                  <ownedComment xmi:id="_kcvDIEgBEeyQM-etEuWZNA">
+                    <body>The constructor.
+	 * @param dataPacket the data.
+	 * @param sender  the sender.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_gnvukEgBEeyQM-etEuWZNA" name="dataPacket" type="_gmBQQEgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_gnwVoEgBEeyQM-etEuWZNA" name="sender" type="_gmaR0EgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_gn0nEEgBEeyQM-etEuWZNA" type="_gf3k8EgBEeyQM-etEuWZNA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_ggLG8EgBEeyQM-etEuWZNA" name="ConnectorFailMsg">
+                <ownedComment xmi:id="_kcvDIUgBEeyQM-etEuWZNA">
+                  <body>@author jimmy
+The connection fail class.</body>
+                </ownedComment>
+                <generalization xmi:id="_gnG1YEgBEeyQM-etEuWZNA" general="_gduP4EgBEeyQM-etEuWZNA"/>
+                <ownedAttribute xmi:id="_gokN8EgBEeyQM-etEuWZNA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_gok1AEgBEeyQM-etEuWZNA" value="1788757620303599210L"/>
+                </ownedAttribute>
+                <interfaceRealization xmi:id="_gn8i4EgBEeyQM-etEuWZNA" client="_ggLG8EgBEeyQM-etEuWZNA" supplier="_gnAHsEgBEeyQM-etEuWZNA" contract="_gnAHsEgBEeyQM-etEuWZNA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gpEkQEgBEeyQM-etEuWZNA" name="ConnectorFailMsg" specification="_gn_mMEgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_gpEkQUgBEeyQM-etEuWZNA" name="dataPacket" type="_gmBQQEgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_gpEkQkgBEeyQM-etEuWZNA" name="sender" type="_gmaR0EgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_gpEkQ0gBEeyQM-etEuWZNA" type="_ggLG8EgBEeyQM-etEuWZNA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.dataPacket = dataPacket;
+		this.sender = sender;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gpEkREgBEeyQM-etEuWZNA" name="getStatus" specification="_ggP_cEgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_gpEkRUgBEeyQM-etEuWZNA" direction="return">
+                    <name xsi:nil="true"/>
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return &quot;Connetion Fail from &quot; + sender.getName();
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_ggP_cEgBEeyQM-etEuWZNA" name="getStatus" method="_gpEkREgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_ggQmgEgBEeyQM-etEuWZNA" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_gn_mMEgBEeyQM-etEuWZNA" name="ConnectorFailMsg" method="_gpEkQEgBEeyQM-etEuWZNA">
+                  <eAnnotations xmi:id="_goA0UUgBEeyQM-etEuWZNA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_goBbYEgBEeyQM-etEuWZNA" key="create"/>
+                  </eAnnotations>
+                  <ownedComment xmi:id="_kcvqMEgBEeyQM-etEuWZNA">
+                    <body>Constructor for the fail message.
+	 * @param dataPacket the data.
+	 * @param sender the sender.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_goANQEgBEeyQM-etEuWZNA" name="dataPacket" type="_gmBQQEgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_goA0UEgBEeyQM-etEuWZNA" name="sender" type="_gmaR0EgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_goBbYUgBEeyQM-etEuWZNA" type="_ggLG8EgBEeyQM-etEuWZNA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_ggUQ4EgBEeyQM-etEuWZNA" name="ConnectorRejectMsg">
+                <ownedComment xmi:id="_kcvqMUgBEeyQM-etEuWZNA">
+                  <body>@author jimmy
+The connection reject message.</body>
+                </ownedComment>
+                <generalization xmi:id="_gnM8AEgBEeyQM-etEuWZNA" general="_gduP4EgBEeyQM-etEuWZNA"/>
+                <ownedAttribute xmi:id="_golcEEgBEeyQM-etEuWZNA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_gomDIEgBEeyQM-etEuWZNA" value="-2379605039639705622L"/>
+                </ownedAttribute>
+                <interfaceRealization xmi:id="_goEesEgBEeyQM-etEuWZNA" client="_ggUQ4EgBEeyQM-etEuWZNA" supplier="_gnJ4sEgBEeyQM-etEuWZNA" contract="_gnJ4sEgBEeyQM-etEuWZNA"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gpFLUEgBEeyQM-etEuWZNA" name="ConnectorRejectMsg" specification="_goFs0EgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_gpFLUUgBEeyQM-etEuWZNA" name="dataPacket" type="_gmBQQEgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_gpFLUkgBEeyQM-etEuWZNA" name="sender" type="_gmaR0EgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_gpFLU0gBEeyQM-etEuWZNA" type="_ggUQ4EgBEeyQM-etEuWZNA" direction="return">
+                    <name xsi:nil="true"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.dataPacket = dataPacket;
+		this.sender = sender;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gpFLVEgBEeyQM-etEuWZNA" name="getStatus" specification="_ggeB4EgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_gpFLVUgBEeyQM-etEuWZNA" direction="return">
+                    <name xsi:nil="true"/>
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return &quot;Connection Reject from &quot; + this.sender.getName();
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_ggeB4EgBEeyQM-etEuWZNA" name="getStatus" method="_gpFLVEgBEeyQM-etEuWZNA">
+                  <ownedParameter xmi:id="_ggfQAEgBEeyQM-etEuWZNA" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_goFs0EgBEeyQM-etEuWZNA" name="ConnectorRejectMsg" method="_gpFLUEgBEeyQM-etEuWZNA">
+                  <eAnnotations xmi:id="_goGT4UgBEeyQM-etEuWZNA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_goGT4kgBEeyQM-etEuWZNA" key="create"/>
+                  </eAnnotations>
+                  <ownedComment xmi:id="_kcvqMkgBEeyQM-etEuWZNA">
+                    <body>The constructor for the class.
+	 * @param dataPacket the data.
+	 * @param sender The sender.</body>
+                  </ownedComment>
+                  <ownedParameter xmi:id="_goFs0UgBEeyQM-etEuWZNA" name="dataPacket" type="_gmBQQEgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_goGT4EgBEeyQM-etEuWZNA" name="sender" type="_gmaR0EgBEeyQM-etEuWZNA"/>
+                  <ownedParameter xmi:id="_goG68EgBEeyQM-etEuWZNA" type="_ggUQ4EgBEeyQM-etEuWZNA" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_gpZ7cEgBEeyQM-etEuWZNA" name="" memberEnd="_gpZ7cUgBEeyQM-etEuWZNA _goWLgEgBEeyQM-etEuWZNA">
+                <ownedEnd xmi:id="_gpZ7cUgBEeyQM-etEuWZNA" name="" type="_gduP4EgBEeyQM-etEuWZNA" association="_gpZ7cEgBEeyQM-etEuWZNA"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_gpez8EgBEeyQM-etEuWZNA" name="" memberEnd="_gpez8UgBEeyQM-etEuWZNA _gof8gEgBEeyQM-etEuWZNA">
+                <ownedEnd xmi:id="_gpez8UgBEeyQM-etEuWZNA" name="" type="_gduP4EgBEeyQM-etEuWZNA" association="_gpez8EgBEeyQM-etEuWZNA"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_gcVIwEgBEeyQM-etEuWZNA" name="common">
+      <packagedElement xmi:type="uml:Package" xmi:id="_gcWW4EgBEeyQM-etEuWZNA" name="connector">
+        <packagedElement xmi:type="uml:Package" xmi:id="_gcYMEEgBEeyQM-etEuWZNA" name="messages">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_gmd8MEgBEeyQM-etEuWZNA" name="IConnectorStatusMsg"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_gm29wEgBEeyQM-etEuWZNA" name="IConnectorErrMsg"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_gnAHsEgBEeyQM-etEuWZNA" name="IConnectorFailMsg"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_gnJ4sEgBEeyQM-etEuWZNA" name="IConnectorRejectMsg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_gmBQQEgBEeyQM-etEuWZNA" name="ConnectorDataPacket"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_gmaR0EgBEeyQM-etEuWZNA" name="INamedConnector"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_ftcpgEgBEeyQM-etEuWZNA">
+      <eAnnotations xmi:id="_ftnooEgBEeyQM-etEuWZNA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_ft2SIEgBEeyQM-etEuWZNA" base_Package="_fCHNgEgBEeyQM-etEuWZNA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_gfbgEEgBEeyQM-etEuWZNA" genericsValue="?" base_Element="_ge7w0EgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfg_oEgBEeyQM-etEuWZNA" base_Element="_ge7w0EgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Annotations xmi:id="_gfr-wEgBEeyQM-etEuWZNA" base_Element="_ge7w0EgBEeyQM-etEuWZNA">
+    <annotations xmi:id="_gftM4EgBEeyQM-etEuWZNA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gf0hoEgBEeyQM-etEuWZNA" base_Element="_gfvCEEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Annotations xmi:id="_gf0hoUgBEeyQM-etEuWZNA" base_Element="_gfvCEEgBEeyQM-etEuWZNA">
+    <annotations xmi:id="_gf1IsEgBEeyQM-etEuWZNA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ggRNkEgBEeyQM-etEuWZNA" base_Element="_ggP_cEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Annotations xmi:id="_ggR0oEgBEeyQM-etEuWZNA" base_Element="_ggP_cEgBEeyQM-etEuWZNA">
+    <annotations xmi:id="_ggR0oUgBEeyQM-etEuWZNA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ggf3EEgBEeyQM-etEuWZNA" base_Element="_ggeB4EgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Annotations xmi:id="_gghFMEgBEeyQM-etEuWZNA" base_Element="_ggeB4EgBEeyQM-etEuWZNA">
+    <annotations xmi:id="_ggiTUEgBEeyQM-etEuWZNA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_gmQg0EgBEeyQM-etEuWZNA" base_Element="_gmBQQEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Reference xmi:id="_gmdVIEgBEeyQM-etEuWZNA" base_Element="_gmaR0EgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Reference xmi:id="_gmfKUEgBEeyQM-etEuWZNA" base_Element="_gmd8MEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Reference xmi:id="_gm4y8EgBEeyQM-etEuWZNA" base_Element="_gm29wEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Reference xmi:id="_gnDyEEgBEeyQM-etEuWZNA" base_Element="_gnAHsEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Reference xmi:id="_gnLt4EgBEeyQM-etEuWZNA" base_Element="_gnJ4sEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Generics xmi:id="_gn3qYEgBEeyQM-etEuWZNA" genericsValue="?" base_Element="_gnvukEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Generics xmi:id="_goDQkEgBEeyQM-etEuWZNA" genericsValue="?" base_Element="_goANQEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Generics xmi:id="_goIwIEgBEeyQM-etEuWZNA" genericsValue="?" base_Element="_goFs0UgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Generics xmi:id="_goZO0EgBEeyQM-etEuWZNA" genericsValue="?" base_Element="_goWLgEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_goeHUEgBEeyQM-etEuWZNA" base_Element="_goWLgEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gohxsEgBEeyQM-etEuWZNA" base_Element="_gof8gEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Reference xmi:id="_gpc-wEgBEeyQM-etEuWZNA" base_Element="_gpZ7cEgBEeyQM-etEuWZNA"/>
+  <UMLLabProfile:Reference xmi:id="_gpgCEEgBEeyQM-etEuWZNA" base_Element="_gpez8EgBEeyQM-etEuWZNA"/>
+</xmi:XMI>
